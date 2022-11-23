@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return '<h1>Testing a Flask Application using Cloud Build at '+ str(datetime.datetime.now()) +'!</h1>'
+    return '<h1>Playing with a Flask Application using Cloud Build at '+ str(datetime.datetime.now()) +'!</h1>'
 
 
 @app.route('/about/')
